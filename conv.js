@@ -1,3 +1,5 @@
+//Temperature Converter 
+
 function convertFahrToCelsius(fahrenheit)
 {
 
@@ -35,6 +37,8 @@ function convertFahrToCelsius(fahrenheit)
     }
 }
 
+
+//CheckYuGiOh
 
 function checkYuGiOh(n)
 {
