@@ -8,7 +8,7 @@ function convertFahrToCelsius(fahrenheit)
 
     if(Array.isArray(fahrenheit))
     {
-        return '['+ fahrTemp +  '] is not a valid number but an array' ;
+        return '['+ fahrTemp +  '] is not a valid number but a/an array' ;
     }
 
     else if( typeof(fahrenheit) == 'string')
@@ -22,7 +22,7 @@ function convertFahrToCelsius(fahrenheit)
 
        else
        {
-        return numString + ' degree(s) fahrenheit is ' + celFromF.toFixed(4) + ' degree(s) celsius'
+        return celFromF.toFixed(4) ;
        }
        
     }
@@ -33,7 +33,7 @@ function convertFahrToCelsius(fahrenheit)
     }
     else
     {
-        return fahrenheit + ' degree(s) fahrenheit is ' + celFromF.toFixed(4) + ' degree(s) celsius' ;
+        return celFromF.toFixed(4) ;
     }
 }
 
