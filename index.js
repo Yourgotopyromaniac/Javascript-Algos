@@ -45,7 +45,7 @@ function checkYuGiOh(n)
 {
 
     let array = [];
-    if(isNaN(n))
+    if(typeof(n) !== 'number' )
     {
         return `invalid parameter: "${n}"`;
     }
